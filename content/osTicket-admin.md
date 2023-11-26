@@ -1,7 +1,7 @@
 ---
 title: "osTicket-admin"
 link: "http://prod.local/osticket/scp/settings.php"
-draft: true
+draft: false
 tags: ["foo4", "bar"]
 ---
 ## Introduction

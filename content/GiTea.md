@@ -1,7 +1,7 @@
 ---
 title: "GiTea"
 link: "http://prod.local/gitea/"
-draft: true
+draft: false
 tags: ["foo", "bar"]
 ---
 ## Introduction
