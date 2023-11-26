@@ -1,7 +1,7 @@
 ---
 title: "Verdaccio"
 link: "http://prod.local/verdaccio/"
-draft: true
+draft: false
 tags: ["foo6", "bar"]
 ---
 ## Introduction
