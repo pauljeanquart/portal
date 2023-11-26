@@ -1,4 +1,4 @@
-baseURL = 'http://prod.local/portal/'
+baseURL = 'http://prod.local/Portal/'
 canonifyURLs = "true"
 languageCode = 'en-us'
 title = 'PiLab Portal'
