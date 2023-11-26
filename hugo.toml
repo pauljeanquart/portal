@@ -1,4 +1,4 @@
-baseURL = 'http://prod.local/'
+baseURL = 'http://prod.local/portal/'
 languageCode = 'en-us'
 title = 'PiLab Portal'
 theme = 'github-style'
