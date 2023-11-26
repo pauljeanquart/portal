@@ -1,7 +1,7 @@
 ---
 title: "osTicket"
 link: "http://prod.local/osticket/"
-draft: true
+draft: false
 tags: ["foo5", "bar"]
 ---
 ## Introduction
