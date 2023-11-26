@@ -2,10 +2,21 @@ pipeline {
     agent any
 
     stages {
+         stage ("Check changes") {
+            steps {
+                echo "Check if there are any changes pushed into this branch..."
+
+                script {
+                    changeCount = currentBuild.changeSets.size()
+                }
+
+                echo "${changeCount} commit(s) since last buid."
+            }
+        }
         stage('Build') {
             when {
                  expression {
-                     currentBuild.changeSets.size() > 0
+                     changeCount > 0
                      }
                   }
             steps {
@@ -20,7 +31,7 @@ pipeline {
         stage('Test') {
             when {
                  expression {
-                     currentBuild.changeSets.size() > 0
+                     changeCount > 0
                      }
                   }
             steps {
@@ -30,7 +41,7 @@ pipeline {
         stage('Deploy') {
             when {
                  expression {
-                     currentBuild.changeSets.size() > 0
+                     changeCount > 0
                      }
                   }
             steps {
