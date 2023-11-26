@@ -18,7 +18,8 @@ pipeline {
                 git branch: "main",
                     url: "http://prod.local/gitea/PiLab/Portal.git"
                 echo 'Deploying..'
-                sh 'hugo --destination /mnt/data/webapps/Portal'
+                sh 'hugo --destination /mnt/data/webapps/portal'
+                sh 'chmod -R 0777 /mnt/data/webapps/portal'
             }
         }
     }
