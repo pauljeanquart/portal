@@ -1,7 +1,7 @@
 ---
 title: "Portal"
 link: "http://prod.local/portal/"
-draft: true
+draft: false
 tags: ["foo", "bar"]
 ---
 ## Introduction
