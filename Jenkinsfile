@@ -8,8 +8,8 @@ pipeline {
                 git branch: "develop",
                     url: "http://prod.local/gitea/PiLab/Portal.git"
                 echo 'develop..'
-                sh 'hugo --destination /mnt/data/webapps/portal'
-                sh 'chmod -R 0777 /mnt/data/webapps/portal'
+                sh 'hugo --destination /mnt/data/webapps/portal-dev'
+                sh 'chmod -R 0777 /mnt/data/webapps/portal-dev'
             }
         }
         stage('Test') {
