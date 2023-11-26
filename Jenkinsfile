@@ -4,7 +4,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                cleanWs()
+                git branch: "develop",
+                    url: "http://prod.local/gitea/PiLab/Portal.git"
+                echo 'develop..'
+                sh 'hugo --destination /mnt/data/webapps/portal'
+                sh 'chmod -R 0777 /mnt/data/webapps/portal'
             }
         }
         stage('Test') {
@@ -17,7 +22,7 @@ pipeline {
                 cleanWs()
                 git branch: "main",
                     url: "http://prod.local/gitea/PiLab/Portal.git"
-                echo 'Deploying..'
+                echo 'main..'
                 sh 'hugo --destination /mnt/data/webapps/portal'
                 sh 'chmod -R 0777 /mnt/data/webapps/portal'
             }
