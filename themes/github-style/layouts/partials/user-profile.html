@@ -1,0 +1,36 @@
+
+<div class="container-xl px-3 px-md-4 px-lg-5">
+  <div class="gutter-condensed gutter-lg flex-column d-flex">
+
+    <div class="position-relative pl-5 pr-5">
+      {{ block "posts" . }}{{ end }}
+    </div>
+  </div>
+</div>
+<script>
+window.onscroll = function (e) {
+  const headerImg = document.querySelector('#headerImg');
+  const headerStuck = document.querySelector('#headerStuck');
+  if (headerImg.getBoundingClientRect().bottom <= 0) {
+    headerStuck.classList.add('is-stuck');
+    if (window.innerWidth >= 1280) {
+      headerStuck.setAttribute('style', 'top: 12px;')
+    } else {
+      headerStuck.setAttribute('style', 'top: 0;')
+    }
+  } else {
+    headerStuck.classList.remove('is-stuck');
+  }
+};
+
+var style = localStorage.getItem('data-color-mode');
+iconElement = document.getElementById('github-icon');
+if (style == 'light') {
+  iconElement.setAttribute('fill', '#24292e');
+}
+else {
+  iconElement.removeAttribute('fill');
+  iconElement.setAttribute('class', 'octicon');
+  iconElement.setAttribute('color', '#f0f6fc');
+}
+</script>
