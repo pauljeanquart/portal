@@ -1,0 +1,9 @@
+baseURL = 'http://prod.local/portal/'
+<<<<<<< HEAD
+canonifyURLs = "true"
+=======
+canonifyURLs = true
+>>>>>>> main
+languageCode = 'en-us'
+title = 'PiLab Portal'
+theme = 'github-style'
