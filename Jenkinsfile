@@ -3,9 +3,7 @@ pipeline {
 
     stages {
         stage('Build') {
-            when {
-                     branch: "develop" 
-                 }
+            when { branch: 'develop' }
             steps {
                 cleanWs()
                 git branch: "develop",
@@ -16,17 +14,13 @@ pipeline {
             }
         }
         stage('Test') {
-            when {
-                     branch: "release-*" 
-                 }
+            when { branch: 'release-*' }
             steps {
                 echo 'Testing..'
             }
         }
         stage('Deploy') {
-            when {
-                     branch: "main"
-                 }
+            when { branch: 'main' }
             steps {
                 cleanWs()
                 git branch: "main",
