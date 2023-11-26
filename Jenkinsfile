@@ -3,6 +3,11 @@ pipeline {
 
     stages {
         stage('Build') {
+            when {
+                 expression {
+                     currentBuild.changeSets.size() > 0
+                     }
+                  }
             steps {
                 cleanWs()
                 git branch: "develop",
@@ -13,11 +18,21 @@ pipeline {
             }
         }
         stage('Test') {
+            when {
+                 expression {
+                     currentBuild.changeSets.size() > 0
+                     }
+                  }
             steps {
                 echo 'Testing..'
             }
         }
         stage('Deploy') {
+            when {
+                 expression {
+                     currentBuild.changeSets.size() > 0
+                     }
+                  }
             steps {
                 cleanWs()
                 git branch: "main",
