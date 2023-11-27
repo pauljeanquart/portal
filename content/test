@@ -1,7 +1,6 @@
 ---
 title: "Test"
 link: "http://prod.local/test/"
-draft: false
 tags: ["foo", "bar"]
 ---
 ## Introduction
