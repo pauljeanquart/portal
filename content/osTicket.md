@@ -2,7 +2,7 @@
 title: "osTicket"
 link: "http://prod.local/osticket/"
 draft: false
-tags: ["foo5", "bar"]
+tags: ["enterprise"]
 ---
 ## Introduction
 Most themes will have certain common elements across a site like a header and footer. 
