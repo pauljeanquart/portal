@@ -1,8 +1,8 @@
 ---
 title: "Jenkins"
-link: "http://prod.local/jenkins/"
+link: "http://prod.local:8080"
 draft: false
-tags: ["foo3", "bar3"]
+tags: ["dev"]
 ---
 abstraction show in the post page
 <!--more-->
