@@ -3,7 +3,9 @@ pipeline {
 
     stages {
         stage('Build') {
-            when { expression { env.BRANCH_NAME == 'develop' } }
+            when {
+                branch 'develop'
+            }  
             steps {
                 cleanWs()
                 git branch: "develop",
@@ -13,7 +15,9 @@ pipeline {
             }
         }
         stage('Test') {
-            when { expression { env.BRANCH_NAME ==~ 'release*' } }
+             when {
+                branch 'release*'
+            }  
             steps {
                 cleanWs()
                 git branch: env.BRANCH_NAME,
