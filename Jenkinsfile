@@ -8,15 +8,18 @@ pipeline {
                 cleanWs()
                 git branch: "develop",
                     url: "http://prod.local/gitea/PiLab/Portal.git"
-                echo 'develop..'
-                sh 'hugo --destination /mnt/data/webapps/portal-dev'
-                sh 'chmod -R 0777 /mnt/data/webapps/portal-dev'
+                sh 'hugo --destination /mnt/dev/webapps/portal'
+                sh 'chmod -R 0777 /mnt/dev/webapps/portal'
             }
         }
         stage('Test') {
-            when { expression { env.BRANCH_NAME ==~ 'release-/.*' } }
+            when { expression { env.BRANCH_NAME ==~ 'release*' } }
             steps {
-                echo 'Testing..'
+                cleanWs()
+                git branch: env.BRANCH_NAME,
+                    url: "http://prod.local/gitea/PiLab/Portal.git"
+                sh 'hugo --destination /mnt/qa/webapps/portal'
+                sh 'chmod -R 0777 /mnt/qa/webapps/portal'
             }
         }
         stage('Deploy') {
@@ -25,7 +28,6 @@ pipeline {
                 cleanWs()
                 git branch: "main",
                     url: "http://prod.local/gitea/PiLab/Portal.git"
-                echo 'main..'
                 sh 'hugo --destination /mnt/data/webapps/portal'
                 sh 'chmod -R 0777 /mnt/data/webapps/portal'
             }
