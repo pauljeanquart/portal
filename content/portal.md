@@ -2,7 +2,7 @@
 title: "Portal"
 link: "http://prod.local/portal/"
 draft: false
-tags: ["foo", "bar"]
+tags: ["enterprise"]
 ---
 ## Introduction
 Blogish menu for PiLab. 
