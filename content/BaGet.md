@@ -1,6 +1,7 @@
 ---
 title: "BaGet"
 link: "http://prod.local/BaGet/"
+drafft: true
 ---
 ## Introduction
 
