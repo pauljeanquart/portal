@@ -2,7 +2,7 @@
 title: "GiTea"
 link: "http://prod.local/gitea/"
 draft: false
-tags: ["foo", "bar"]
+tags: ["dev"]
 ---
 ## Introduction
 Most themes will have certain common elements across a site like a header and footer. 
