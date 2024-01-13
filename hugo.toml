@@ -1,4 +1,4 @@
-baseURL = '/portal/'
+baseURL = '/'
 canonifyURLs = "true"
 languageCode = 'en-us'
 title = 'PiLab Portal'
