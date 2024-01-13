@@ -1,6 +1,6 @@
 ---
 title: "WebApp5"
-link: "http://prod.local/webapp5/"
+link: "/webapp5/"
 draft: false
 tags: ["enterprise"]
 ---
