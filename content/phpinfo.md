@@ -1,6 +1,6 @@
 ---
 title: "PHPInfo"
-link: "http://prod.local/phpinfo.html"
+link: "/phpinfo.html"
 draft: false
 tags: ["dev"]
 ---
