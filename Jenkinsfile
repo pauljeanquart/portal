@@ -22,7 +22,7 @@ pipeline {
                 cleanWs()
                 git branch: env.BRANCH_NAME,
                     url: "http://prod.local/gitea/PiLab/Portal.git"
-                sh 'hugo --baseUrl http://qa.local/portal/ --destination /mnt/qa/webapps/portal'
+                sh 'hugo --baseURL http://qa.local/portal/ --destination /mnt/qa/webapps/portal'
                 sh 'chmod -R 0777 /mnt/qa/webapps/portal'
             }
         }
