@@ -1,6 +1,6 @@
 ---
 title: "Portal"
-link: "http://prod.local/portal/"
+link: "/portal/"
 draft: false
 tags: ["enterprise"]
 ---
