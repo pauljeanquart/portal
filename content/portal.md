@@ -1,6 +1,6 @@
 ---
 title: "Portal"
-link: "/portal/"
+link: "../portal"
 draft: false
 tags: ["enterprise"]
 ---

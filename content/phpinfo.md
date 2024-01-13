@@ -1,6 +1,6 @@
 ---
 title: "PHPInfo"
-link: "/phpinfo.html"
+link: "../phpinfo.html"
 draft: false
 tags: ["dev"]
 ---
