@@ -10,7 +10,7 @@ pipeline {
                 cleanWs()
                 git branch: "develop",
                     url: "http://prod.local/gitea/PiLab/Portal.git"
-                sh 'rm -r /mnt/dev/webapps/portal/*'
+                sh 'rm -f -r /mnt/dev/webapps/portal/*'
                 sh 'hugo --baseURL http://dev.local/portal/ --destination /mnt/dev/webapps/portal'
                 sh 'chmod -R 0777 /mnt/dev/webapps/portal'
             }
@@ -23,7 +23,7 @@ pipeline {
                 cleanWs()
                 git branch: env.BRANCH_NAME,
                     url: "http://prod.local/gitea/PiLab/Portal.git"
-                sh 'rm -r /mnt/qa/webapps/portal/*'
+                sh 'rm -f -r /mnt/qa/webapps/portal/*'
                 sh 'hugo --baseURL http://qa.local/portal/ --destination /mnt/qa/webapps/portal'
                 sh 'chmod -R 0777 /mnt/qa/webapps/portal'
             }
@@ -34,7 +34,7 @@ pipeline {
                 cleanWs()
                 git branch: "main",
                     url: "http://prod.local/gitea/PiLab/Portal.git"
-                sh 'rm -r /mnt/data/webapps/portal/*'
+                sh 'rm -f -r /mnt/data/webapps/portal/*'
                 sh 'hugo --baseURL http://prod.local/portal/ --destination /mnt/data/webapps/portal'
                 sh 'chmod -R 0777 /mnt/data/webapps/portal'
             }
