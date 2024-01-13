@@ -1,8 +1,12 @@
 ---
-title: "Verdaccio"
-link: "http://prod.local/verdaccio/"
-draft: true
-tags: ["foo6", "bar"]
+title: "GiTea"
+link: "http://prod.local/gitea/"
+draft: false
+<<<<<<< HEAD
+tags: ["dev", "qa"]
+=======
+tags: ["dev", "qa", "prod"]
+>>>>>>> main
 ---
 ## Introduction
 Most themes will have certain common elements across a site like a header and footer. 
@@ -10,6 +14,9 @@ Most themes will have certain common elements across a site like a header and fo
 Just because we only need a template for one page, the “bare” theme omits all those flourishes. 
 
 <!--more-->
+<<<<<<< HEAD
+This is on second pabe
+=======
 Most themes will have certain common elements across a site like a header and footer. Just because we only need a template for one page, the “bare” theme omits all those flourishes.
 
 Most themes will have certain common elements across a site like a header and footer. Just because we only need a template for one page, the “bare” theme omits all those flourishes.
@@ -17,3 +24,4 @@ Most themes will have certain common elements across a site like a header and fo
 Most themes will have certain common elements across a site like a header and footer. Just because we only need a template for one page, the “bare” theme omits all those flourishes.
 
 Most themes will have certain common elements across a site like a header and footer. Just because we only need a template for one page, the “bare” theme omits all those flourishes.
+>>>>>>> main
