@@ -12,3 +12,4 @@ Most themes will have certain common elements across a site like a header and fo
 
 Most themes will have certain common elements across a site like a header and footer. Just because we only need a template for one page, the “bare” theme omits all those flourishes.
 
+test 2-22
