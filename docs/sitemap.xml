@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://prod.local/portal/baget/</loc>
+    <loc>https://pauljeanquart.github.io/portal/baget/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/bar/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/bar/</loc>
   </url><url>
-    <loc>http://prod.local/portal/categories/</loc>
+    <loc>https://pauljeanquart.github.io/portal/categories/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/dapper/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/dapper/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/dev/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/dev/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/enterprise/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/enterprise/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/foo4/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/foo4/</loc>
   </url><url>
-    <loc>http://prod.local/portal/gittea/</loc>
+    <loc>https://pauljeanquart.github.io/portal/gittea/</loc>
   </url><url>
-    <loc>http://prod.local/portal/jenkins/</loc>
+    <loc>https://pauljeanquart.github.io/portal/jenkins/</loc>
   </url><url>
-    <loc>http://prod.local/portal/osticket/</loc>
+    <loc>https://pauljeanquart.github.io/portal/osticket/</loc>
   </url><url>
-    <loc>http://prod.local/portal/osticket-admin/</loc>
+    <loc>https://pauljeanquart.github.io/portal/osticket-admin/</loc>
   </url><url>
-    <loc>http://prod.local/portal/phpinfo/</loc>
+    <loc>https://pauljeanquart.github.io/portal/phpinfo/</loc>
   </url><url>
-    <loc>http://prod.local/portal/</loc>
+    <loc>https://pauljeanquart.github.io/portal/</loc>
   </url><url>
-    <loc>http://prod.local/portal/portal/</loc>
+    <loc>https://pauljeanquart.github.io/portal/portal/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/postgresql/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/postgresql/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/prod/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/prod/</loc>
   </url><url>
-    <loc>http://prod.local/portal/tags/</loc>
+    <loc>https://pauljeanquart.github.io/portal/tags/</loc>
   </url><url>
-    <loc>http://prod.local/portal/webapp5/</loc>
+    <loc>https://pauljeanquart.github.io/portal/webapp5/</loc>
   </url><url>
-    <loc>http://prod.local/portal/webapplication10/</loc>
+    <loc>https://pauljeanquart.github.io/portal/webapplication10/</loc>
   </url>
 </urlset>

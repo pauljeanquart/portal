@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on PiLab Portal</title>
-    <link>http://prod.local/portal/tags/</link>
+    <link>https://pauljeanquart.github.io/portal/tags/</link>
     <description>Recent content in Tags on PiLab Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://prod.local/portal/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pauljeanquart.github.io/portal/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bar</title>
-      <link>http://prod.local/portal/tags/bar/</link>
+      <link>https://pauljeanquart.github.io/portal/tags/bar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/tags/bar/</guid>
+      <guid>https://pauljeanquart.github.io/portal/tags/bar/</guid>
       <description></description>
     </item>
     <item>
       <title>dapper</title>
-      <link>http://prod.local/portal/tags/dapper/</link>
+      <link>https://pauljeanquart.github.io/portal/tags/dapper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/tags/dapper/</guid>
+      <guid>https://pauljeanquart.github.io/portal/tags/dapper/</guid>
       <description></description>
     </item>
     <item>
       <title>dev</title>
-      <link>http://prod.local/portal/tags/dev/</link>
+      <link>https://pauljeanquart.github.io/portal/tags/dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/tags/dev/</guid>
+      <guid>https://pauljeanquart.github.io/portal/tags/dev/</guid>
       <description></description>
     </item>
     <item>
       <title>enterprise</title>
-      <link>http://prod.local/portal/tags/enterprise/</link>
+      <link>https://pauljeanquart.github.io/portal/tags/enterprise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/tags/enterprise/</guid>
+      <guid>https://pauljeanquart.github.io/portal/tags/enterprise/</guid>
       <description></description>
     </item>
     <item>
       <title>foo4</title>
-      <link>http://prod.local/portal/tags/foo4/</link>
+      <link>https://pauljeanquart.github.io/portal/tags/foo4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/tags/foo4/</guid>
+      <guid>https://pauljeanquart.github.io/portal/tags/foo4/</guid>
       <description></description>
     </item>
     <item>
       <title>postgresql</title>
-      <link>http://prod.local/portal/tags/postgresql/</link>
+      <link>https://pauljeanquart.github.io/portal/tags/postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/tags/postgresql/</guid>
+      <guid>https://pauljeanquart.github.io/portal/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>prod</title>
-      <link>http://prod.local/portal/tags/prod/</link>
+      <link>https://pauljeanquart.github.io/portal/tags/prod/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/tags/prod/</guid>
+      <guid>https://pauljeanquart.github.io/portal/tags/prod/</guid>
       <description></description>
     </item>
   </channel>

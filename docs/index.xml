@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PiLab Portal</title>
-    <link>http://prod.local/portal/</link>
+    <link>https://pauljeanquart.github.io/portal/</link>
     <description>Recent content on PiLab Portal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://prod.local/portal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pauljeanquart.github.io/portal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BaGet</title>
-      <link>http://prod.local/portal/baget/</link>
+      <link>https://pauljeanquart.github.io/portal/baget/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/baget/</guid>
+      <guid>https://pauljeanquart.github.io/portal/baget/</guid>
       <description>BaGet NuGet Proxy</description>
     </item>
     <item>
       <title>GiTea</title>
-      <link>http://prod.local/portal/gittea/</link>
+      <link>https://pauljeanquart.github.io/portal/gittea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/gittea/</guid>
+      <guid>https://pauljeanquart.github.io/portal/gittea/</guid>
       <description>&lt;p&gt;Alternative to GitHub for collaboative software development.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jenkins</title>
-      <link>http://prod.local/portal/jenkins/</link>
+      <link>https://pauljeanquart.github.io/portal/jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/jenkins/</guid>
+      <guid>https://pauljeanquart.github.io/portal/jenkins/</guid>
       <description>&lt;p&gt;abstraction show in the post page&lt;/p&gt;</description>
     </item>
     <item>
       <title>osTicket</title>
-      <link>http://prod.local/portal/osticket/</link>
+      <link>https://pauljeanquart.github.io/portal/osticket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/osticket/</guid>
+      <guid>https://pauljeanquart.github.io/portal/osticket/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Most themes will have certain common elements across a site like a header and footer.&lt;/p&gt;
 &lt;p&gt;Just because we only need a template for one page, the “bare” theme omits all those flourishes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>osTicket-admin</title>
-      <link>http://prod.local/portal/osticket-admin/</link>
+      <link>https://pauljeanquart.github.io/portal/osticket-admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/osticket-admin/</guid>
+      <guid>https://pauljeanquart.github.io/portal/osticket-admin/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Most themes will have certain common elements across a site like a header and footer.&lt;/p&gt;
 &lt;p&gt;Just because we only need a template for one page, the “bare” theme omits all those flourishes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PHPInfo</title>
-      <link>http://prod.local/portal/phpinfo/</link>
+      <link>https://pauljeanquart.github.io/portal/phpinfo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/phpinfo/</guid>
+      <guid>https://pauljeanquart.github.io/portal/phpinfo/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Blogish menu for PiLab.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Portal</title>
-      <link>http://prod.local/portal/portal/</link>
+      <link>https://pauljeanquart.github.io/portal/portal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/portal/</guid>
+      <guid>https://pauljeanquart.github.io/portal/portal/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Blogish menu for PiLab.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebApp5</title>
-      <link>http://prod.local/portal/webapp5/</link>
+      <link>https://pauljeanquart.github.io/portal/webapp5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/webapp5/</guid>
+      <guid>https://pauljeanquart.github.io/portal/webapp5/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Test .net Core.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WebApplication10</title>
-      <link>http://prod.local/portal/webapplication10/</link>
+      <link>https://pauljeanquart.github.io/portal/webapplication10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://prod.local/portal/webapplication10/</guid>
+      <guid>https://pauljeanquart.github.io/portal/webapplication10/</guid>
       <description>Demonstration mvc app using dapper to access postgesql databse.</description>
     </item>
   </channel>
