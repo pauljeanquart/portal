@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>postgresql on PiLab Portal</title>
+    <link>http://prod.local/portal/tags/postgresql/</link>
+    <description>Recent content in postgresql on PiLab Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://prod.local/portal/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WebApplication10</title>
+      <link>http://prod.local/portal/webapplication10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://prod.local/portal/webapplication10/</guid>
+      <description>Demonstration mvc app using dapper to access postgesql databse.</description>
+    </item>
+  </channel>
+</rss>

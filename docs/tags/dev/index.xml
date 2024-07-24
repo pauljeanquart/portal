@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev on PiLab Portal</title>
+    <link>http://prod.local/portal/tags/dev/</link>
+    <description>Recent content in dev on PiLab Portal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://prod.local/portal/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jenkins</title>
+      <link>http://prod.local/portal/jenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://prod.local/portal/jenkins/</guid>
+      <description>&lt;p&gt;abstraction show in the post page&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHPInfo</title>
+      <link>http://prod.local/portal/phpinfo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://prod.local/portal/phpinfo/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Blogish menu for PiLab.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
